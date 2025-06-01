@@ -1,0 +1,27 @@
+language = "python3"
+entrypoint = "main.py"
+hidden = [".config", "bot.log"]
+modules = ["python-3.10:v18-20230807-322e88b"]
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["python", "main.py"]
+
+[env]
+VIRTUAL_ENV = "${REPL_HOME}/.pythonlibs"
+PATH = "${VIRTUAL_ENV}/bin:${PATH}"
+PYTHONPATH = "$PYTHONLIBS:${PYTHONPATH}"
+REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
+MPLBACKEND = "TkAgg"
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".config"]
+
+[[hints]]
+regex = "Traceback.*"
+message = "Did you get an error? Check the traceback to see what went wrong."
