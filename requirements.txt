@@ -7,3 +7,12 @@ colorama==0.4.6
 emoji==2.8.0
 pymongo==4.5.0
 python-dateutil==2.8.2
+aiohttp
+asyncio
+colorama
+discord.py
+emoji
+pillow
+pymongo
+python-dateutil
+python-dotenv
