@@ -59,14 +59,18 @@ async def on_ready():
 
 async def load_extensions():
     """Load all extension cogs."""
-    for folder in ['commands', 'games', 'economy', 'events', 'utils']:
-        for filename in os.listdir(f'./cogs/{folder}'):
-            if filename.endswith('.py'):
-                try:
-                    await bot.load_extension(f'cogs.{folder}.{filename[:-3]}')
-                    logger.info(f"Loaded extension: cogs.{folder}.{filename[:-3]}")
-                except Exception as e:
-                    logger.error(f"Failed to load extension cogs.{folder}.{filename[:-3]}: {e}")
+    for folder in ['commands', 'games', 'economy', 'utils']:
+        folder_path = f'./cogs/{folder}'
+        if os.path.exists(folder_path) and os.path.isdir(folder_path):
+            for filename in os.listdir(folder_path):
+                if filename.endswith('.py'):
+                    try:
+                        await bot.load_extension(f'cogs.{folder}.{filename[:-3]}')
+                        logger.info(f"Loaded extension: cogs.{folder}.{filename[:-3]}")
+                    except Exception as e:
+                        logger.error(f"Failed to load extension cogs.{folder}.{filename[:-3]}: {e}")
+        else:
+            logger.warning(f"Folder {folder_path} does not exist, skipping...")
 
 @bot.event
 async def on_command_error(ctx, error):
