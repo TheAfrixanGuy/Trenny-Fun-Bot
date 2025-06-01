@@ -16,3 +16,12 @@ pillow
 pymongo
 python-dateutil
 python-dotenv
+aiohttp
+asyncio
+colorama
+discord.py
+emoji
+pillow
+pymongo
+python-dateutil
+python-dotenv
