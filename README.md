@@ -47,4 +47,8 @@ Earn coins by playing games and participating in activities. Spend them in the s
 
 ## License
 
-MIT
+## CREDITS
+
+**Developed By is_brookie And MaskedGirafi 
+Powered By Trenny Development 
+If You Want To Support Us Join https://dsc.gg/trennydev**
