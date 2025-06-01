@@ -1,0 +1,80 @@
+2025-06-01 17:27:31,681 - discord.client - INFO - logging in using static token
+2025-06-01 17:27:34,829 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000015A27400B10>
+2025-06-01 17:27:34,831 - asyncio - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x0000015A2738AC80>, 20257.046)]']
+connector: <aiohttp.connector.TCPConnector object at 0x0000015A265275D0>
+2025-06-01 17:27:52,508 - discord.client - INFO - logging in using static token
+2025-06-01 17:27:54,917 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 74795d7b8fe9e8aaf0a0366be4f482d2).
+2025-06-01 17:27:56,990 - trenny_fun - INFO - Loaded extension: cogs.commands.fun
+2025-06-01 17:27:57,089 - trenny_fun - INFO - Loaded extension: cogs.commands.help
+2025-06-01 17:27:57,119 - trenny_fun - INFO - Loaded extension: cogs.games.blackjack
+2025-06-01 17:27:57,134 - trenny_fun - INFO - Loaded extension: cogs.games.hangman
+2025-06-01 17:27:57,171 - trenny_fun - INFO - Loaded extension: cogs.games.memory
+2025-06-01 17:27:57,190 - trenny_fun - INFO - Loaded extension: cogs.games.numguess
+2025-06-01 17:27:57,212 - trenny_fun - INFO - Loaded extension: cogs.games.rps
+2025-06-01 17:27:57,235 - trenny_fun - INFO - Loaded extension: cogs.games.snake
+2025-06-01 17:27:57,262 - trenny_fun - ERROR - Failed to load extension cogs.games.tictactoe: Extension 'cogs.games.tictactoe' raised an error: CommandRegistrationError: The alias tttlb is already an existing command or alias.
+2025-06-01 17:27:57,282 - trenny_fun - INFO - Loaded extension: cogs.games.trivia
+2025-06-01 17:27:57,300 - trenny_fun - INFO - Loaded extension: cogs.games.wordscramble
+2025-06-01 17:27:57,332 - trenny_fun - ERROR - Failed to load extension cogs.economy.economy: Extension 'cogs.economy.economy' raised an error: CommandRegistrationError: The alias roll is already an existing command or alias.
+2025-06-01 17:27:57,364 - trenny_fun - INFO - Loaded extension: cogs.economy.inventory
+2025-06-01 17:27:57,384 - trenny_fun - INFO - Loaded extension: cogs.economy.shop
+2025-06-01 17:27:57,403 - trenny_fun - ERROR - Failed to load extension cogs.utils.db: Extension 'cogs.utils.db' has no 'setup' function.
+2025-06-01 17:30:51,026 - discord.client - INFO - logging in using static token
+2025-06-01 17:30:55,519 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0fe23517d7884acbaddb609de98310f3).
+2025-06-01 17:47:14,395 - discord.client - INFO - logging in using static token
+2025-06-01 17:47:16,754 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d81f4da4fbb8b2fbaa3844da77795176).
+2025-06-01 17:47:18,924 - trenny_fun - INFO - Loaded extension: cogs.commands.fun
+2025-06-01 17:47:19,120 - trenny_fun - INFO - Loaded extension: cogs.commands.help
+2025-06-01 17:47:19,128 - trenny_fun - INFO - Loaded extension: cogs.games.blackjack
+2025-06-01 17:47:19,135 - trenny_fun - INFO - Loaded extension: cogs.games.hangman
+2025-06-01 17:47:19,140 - trenny_fun - INFO - Loaded extension: cogs.games.memory
+2025-06-01 17:47:19,149 - trenny_fun - INFO - Loaded extension: cogs.games.numguess
+2025-06-01 17:47:19,155 - trenny_fun - INFO - Loaded extension: cogs.games.rps
+2025-06-01 17:47:19,162 - trenny_fun - INFO - Loaded extension: cogs.games.snake
+2025-06-01 17:47:19,200 - trenny_fun - INFO - Loaded extension: cogs.games.tictactoe
+2025-06-01 17:47:19,207 - trenny_fun - INFO - Loaded extension: cogs.games.trivia
+2025-06-01 17:47:19,212 - trenny_fun - INFO - Loaded extension: cogs.games.wordscramble
+2025-06-01 17:47:19,249 - trenny_fun - INFO - Loaded extension: cogs.economy.economy
+2025-06-01 17:47:19,258 - trenny_fun - INFO - Loaded extension: cogs.economy.inventory
+2025-06-01 17:47:19,270 - trenny_fun - INFO - Loaded extension: cogs.economy.shop
+2025-06-01 17:47:21,109 - trenny_fun.db - INFO - Connected to MongoDB successfully
+2025-06-01 17:47:21,109 - trenny_fun - INFO - Loaded extension: cogs.utils.db
+2025-06-01 17:48:38,780 - discord.client - INFO - logging in using static token
+2025-06-01 17:48:41,376 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 208fe973dffd99fff2dfdeb4639767f9).
+2025-06-01 17:48:43,465 - trenny_fun - INFO - Loaded extension: cogs.commands.fun
+2025-06-01 17:48:43,562 - trenny_fun - INFO - Loaded extension: cogs.commands.help
+2025-06-01 17:48:43,566 - trenny_fun - INFO - Loaded extension: cogs.games.blackjack
+2025-06-01 17:48:43,576 - trenny_fun - INFO - Loaded extension: cogs.games.hangman
+2025-06-01 17:48:43,581 - trenny_fun - INFO - Loaded extension: cogs.games.memory
+2025-06-01 17:48:43,589 - trenny_fun - INFO - Loaded extension: cogs.games.numguess
+2025-06-01 17:48:43,598 - trenny_fun - INFO - Loaded extension: cogs.games.rps
+2025-06-01 17:48:43,607 - trenny_fun - INFO - Loaded extension: cogs.games.snake
+2025-06-01 17:48:43,618 - trenny_fun - INFO - Loaded extension: cogs.games.tictactoe
+2025-06-01 17:48:43,715 - trenny_fun - INFO - Loaded extension: cogs.games.trivia
+2025-06-01 17:48:43,727 - trenny_fun - INFO - Loaded extension: cogs.games.wordscramble
+2025-06-01 17:48:43,774 - trenny_fun - INFO - Loaded extension: cogs.economy.economy
+2025-06-01 17:48:43,812 - trenny_fun - INFO - Loaded extension: cogs.economy.inventory
+2025-06-01 17:48:43,841 - trenny_fun - INFO - Loaded extension: cogs.economy.shop
+2025-06-01 17:48:44,774 - trenny_fun.db - INFO - Connected to MongoDB successfully
+2025-06-01 17:48:44,774 - trenny_fun - INFO - Loaded extension: cogs.utils.db
+2025-06-01 17:59:07,851 - discord.client - INFO - logging in using static token
+2025-06-01 17:59:10,634 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 472b094757a0ae254789c2be4f7e0518).
+2025-06-01 17:59:12,946 - trenny_fun - INFO - Loaded extension: cogs.commands.fun
+2025-06-01 17:59:13,038 - trenny_fun - INFO - Loaded extension: cogs.commands.help
+2025-06-01 17:59:13,046 - trenny_fun - INFO - Loaded extension: cogs.games.blackjack
+2025-06-01 17:59:13,050 - trenny_fun - INFO - Loaded extension: cogs.games.hangman
+2025-06-01 17:59:13,054 - trenny_fun - INFO - Loaded extension: cogs.games.memory
+2025-06-01 17:59:13,057 - trenny_fun - INFO - Loaded extension: cogs.games.numguess
+2025-06-01 17:59:13,062 - trenny_fun - INFO - Loaded extension: cogs.games.rps
+2025-06-01 17:59:13,068 - trenny_fun - INFO - Loaded extension: cogs.games.snake
+2025-06-01 17:59:13,072 - trenny_fun - INFO - Loaded extension: cogs.games.tictactoe
+2025-06-01 17:59:13,078 - trenny_fun - INFO - Loaded extension: cogs.games.trivia
+2025-06-01 17:59:13,083 - trenny_fun - INFO - Loaded extension: cogs.games.wordscramble
+2025-06-01 17:59:13,092 - trenny_fun - INFO - Loaded extension: cogs.economy.economy
+2025-06-01 17:59:13,097 - trenny_fun - INFO - Loaded extension: cogs.economy.inventory
+2025-06-01 17:59:13,105 - trenny_fun - INFO - Loaded extension: cogs.economy.shop
+2025-06-01 17:59:13,988 - trenny_fun.db - INFO - Connected to MongoDB successfully
+2025-06-01 17:59:13,990 - trenny_fun - INFO - Loaded extension: cogs.utils.db
+2025-06-01 18:27:51,105 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 472b094757a0ae254789c2be4f7e0518.
